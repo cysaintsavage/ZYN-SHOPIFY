@@ -9,10 +9,10 @@ import json
 import re
 from datetime import datetime, timedelta
 
-API_ID = .
-API_HASH = '.'
-BOT_TOKEN = 'ظظ'
-ADMIN_ID = [.]
+API_ID = 21124241
+API_HASH = 'b7ddce3d3683f54be788fddae73fa468'
+BOT_TOKEN = '8526188355:AAGq2ESiPU_jGwCqpfCV8AYuexwewWCd6YU'
+ADMIN_ID = [8421362535]
 CHECKER_API_URL = 'http://afuonashopi.up.railway.app//shopify_parallel'
 
 
