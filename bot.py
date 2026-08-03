@@ -13,7 +13,7 @@ API_ID = 21124241
 API_HASH = 'b7ddce3d3683f54be788fddae73fa468'
 BOT_TOKEN = '8526188355:AAGq2ESiPU_jGwCqpfCV8AYuexwewWCd6YU'
 ADMIN_ID = [8421362535]
-CHECKER_API_URL = 'http://afuonashopi.up.railway.app//shopify_parallel'
+CHECKER_API_URL = 'https://web-production-45515a.up.railway.app/shopify?site=&cc=&proxy=   '
 
 
 
@@ -219,7 +219,7 @@ async def remove_premium_user(user_id):
 
 def generate_key():
     random_part = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=15))
-    return f"AFUONA_{random_part}"
+    return f"ZYNSHOP_{random_part}"
 
 async def load_keys():
     if not os.path.exists(KEYS_FILE):
@@ -592,7 +592,7 @@ async def send_final_results(user_id, results):
 Hɪᴛs:
 {hits_text}
 
-💡 Mᴀᴅᴇ ʙʏ @AFUONA_V"""
+💡 Mᴀᴅᴇ ʙʏ @Sy_saint"""
 
     buttons = []
     if results['charged']:
@@ -1048,9 +1048,9 @@ async def start(event):
 ━━━━━━━━━━━━━━━━━
 <code>/cc</code> · <code>/chk</code> · <code>/redeem</code>
 ━━━━━━━━━━━━━━━━━
-One day I will be the best 
-💡 Bᴏᴛ Dᴇᴠ @AFUONA_V
- Vᴇʀsɪᴏɴ -»3.0 🚀
+I'm the best 
+💡 Bᴏᴛ Dᴇᴠ @Sy_saint
+ Vᴇʀsɪᴏɴ -»5.0 🚀
 ━━━━━━━━━━━━━━━━━"""
     
     buttons = get_main_menu_keyboard(user_id)
@@ -1144,9 +1144,9 @@ async def main_menu_callback(event):
 ━━━━━━━━━━━━━━━━━
 <code>/cc</code> · <code>/chk</code> · <code>/redeem</code>
 ━━━━━━━━━━━━━━━━━
-One day I will be the best 
-💡 Bᴏᴛ Dᴇᴠ @AFUONA_V
- Vᴇʀsɪᴏɴ -»3.0 🚀
+I'm the best 
+💡 Bᴏᴛ Dᴇᴠ @Sy_saint
+ Vᴇʀsɪᴏɴ -»5.0 🚀
 ━━━━━━━━━━━━━━━━━"""
     
     buttons = get_main_menu_keyboard(user_id)
@@ -1334,7 +1334,7 @@ async def single_cc_check(event):
 🏦 Bᴀɴᴋ {bank}
 🥰 Cᴏᴜɴᴛʀʏ {country} {flag}
 
-💡 Mᴀᴅᴇ ʙʏ @AFUONA_V"""
+💡 Mᴀᴅᴇ ʙʏ @Sy_saint"""
         if 'Charged' in status_header or 'APPROVED' in status_header:
             await send_hit_to_channel(result['card'], result['status'], result['message'], result.get('gateway', 'Unknown'), result.get('price', '-'))
         await status_msg.edit(premium_emoji(final_resp), parse_mode='html')
@@ -2737,7 +2737,7 @@ async def bin_lookup(event):
 💡  Cᴏᴜɴᴛʀʏ: {country} {flag}
 💵  Pʀᴇᴘᴀɪᴅ: {prepaid_text}
 
-💡 Mᴀᴅᴇ ʙʏ @AFUONA_V"""
+💡 Mᴀᴅᴇ ʙʏ @Sy_saint"""
                 
                 await status_msg.edit(premium_emoji(result), parse_mode='html')
                 
@@ -2830,7 +2830,7 @@ Exᴀᴍᴘʟᴇs:
 🏦 {bank or '─'}
 {flag} {country or '─'}
 ∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼
-💡 @AFUONA_V"""
+💡 @Sy_saint"""
             
             await bot.send_file(
                 user_id,
@@ -2864,7 +2864,7 @@ Exᴀᴍᴘʟᴇs:
 🏦 {bank or '─'}
 {flag} {country or '─'}
 ∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼
-💡 @AFUONA_V"""
+💡 @Sy_saint"""
         
         await status_msg.edit(premium_emoji(result), parse_mode='html')
         
@@ -2971,7 +2971,7 @@ Exᴀᴍᴘʟᴇs:
 
 {details}
 ∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼
-💡 @AFUONA_V"""
+💡 @Sy_saint"""
         
         await status_msg.edit(premium_emoji(result), parse_mode='html')
         
@@ -3065,7 +3065,7 @@ Exᴀᴍᴘʟᴇs:
 📊 <b>GʀᴀᴘʜQL:</b> {graphql}
 📈 <b>Aɴᴀʟʏᴛɪᴄs:</b> {analytics_str}
 ∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼
-💡 Mᴀᴅᴇ ʙʏ @AFUONA_V"""
+💡 Mᴀᴅᴇ ʙʏ @Sy_saint"""
         
         await status_msg.edit(premium_emoji(result), parse_mode='html')
         
@@ -3388,7 +3388,7 @@ Exᴀᴍᴘʟᴇs:
 ⏱️ <b>Tɪᴍᴇᴢᴏɴᴇ</b> ↯ <code>{timezone}</code>
 🔄 <b>Aɴʏᴄᴀsᴛ</b> ↯ {'✅ Yᴇs' if anycast else '❌ Nᴏ'}
 ∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼
-💡 Mᴀᴅᴇ ʙʏ @AFUONA_V"""
+💡 Mᴀᴅᴇ ʙʏ @Sy_saint"""
                 
                 await status_msg.edit(premium_emoji(result), parse_mode='html')
                 
