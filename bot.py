@@ -13,7 +13,7 @@ API_ID = 21124241
 API_HASH = 'b7ddce3d3683f54be788fddae73fa468'
 BOT_TOKEN = '8526188355:AAGq2ESiPU_jGwCqpfCV8AYuexwewWCd6YU'
 ADMIN_ID = [8421362535]
-CHECKER_API_URL = 'https://web-production-45515a.up.railway.app/shopify?site=&cc=&proxy=   '
+CHECKER_API_URL = 'https://api-production-b6a8a.up.railway.app/shopify?site=https://lebzone.com&cc=5187254540618961|11|2028|813&proxy=p105.instantproxies.com:9832:5398:wntdcq&key=darkanon'
 
 
 
@@ -219,7 +219,7 @@ async def remove_premium_user(user_id):
 
 def generate_key():
     random_part = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=15))
-    return f"ZYNSHOP_{random_part}"
+    return f"CHRIS_{random_part}"
 
 async def load_keys():
     if not os.path.exists(KEYS_FILE):
