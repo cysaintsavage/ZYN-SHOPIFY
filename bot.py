@@ -219,7 +219,7 @@ async def remove_premium_user(user_id):
 
 def generate_key():
     random_part = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=15))
-    return f"CHRIS_{random_part}"
+    return fNEXUS_{random_part}"
 
 async def load_keys():
     if not os.path.exists(KEYS_FILE):
@@ -367,7 +367,7 @@ async def send_hit_to_channel(card, status, response, gateway, price):
 🛒 Gᴀᴛᴇᴡᴀʏ {gateway}
 📝 {response[:45]}
 ⏱️ {time_str}
-🍑 <a href='tg://user?id=8978049174'>Aꜰᴜᴏɴᴀ</a>""")
+🍑 <a href='tg://user?id=8421362535'>𝕮y͜͡ 𝖘𝖆𝖎𝖓𝖙</a>""")
         sent_msg = await bot.send_message(abs(HITS_CHANNEL_ID), msg, parse_mode='html')
         if should_pin:
             try:
@@ -674,7 +674,7 @@ async def start_mass_check(user_id, cards, sites, event):
         return
     proxies = load_proxies()
     if not proxies:
-        await event.edit(premium_emoji("❌ Nᴏ ᴘʀᴏxɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ!\n\n⚠️ Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ᴛᴏ ᴀᴅᴅ ᴘʀᴏxɪᴇsᴇ!"), parse_mode='html')
+        await event.edit(premium_emoji("❌ Nᴏ ᴘʀᴏxɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ!\n\n⚠️ Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ 𝕮y͜͡ 𝖘𝖆𝖎𝖓𝖙 ᴛᴏ ᴀᴅᴅ ᴘʀᴏxɪᴇsᴇ!"), parse_mode='html')
         return
     status_msg = await event.edit(premium_emoji(f"🔥 Sᴛᴀʀᴛɪɴɢ ᴄʜᴇᴄᴋ ғᴏʀ {len(cards)} ᴄᴀʀᴅs..."), parse_mode='html')
     session_key = f"{user_id}_{status_msg.id}"
@@ -1076,7 +1076,7 @@ async def admin_panel_callback(event):
     if user_id not in ADMIN_ID:
         await event.answer("❌ Aᴄᴄᴇss Dᴇɴɪᴇᴅ. Aᴅᴍɪɴ ᴏɴʟʏ.", alert=True)
         return
-    admin_text = """👑 <b>Aᴅᴍɪɴ Pᴀɴᴇʟ</b>
+    admin_text = """👑 <b>𝕮y͜͡ 𝖘𝖆𝖎𝖓𝖙 Pᴀɴᴇʟ</b>
 
 📋 <b>Pʀᴇᴍɪᴜᴍ Mᴀɴᴀɢᴇᴍᴇɴᴛ</b>
 ├─ <code>/addpremium ᴜsᴇʀ_ɪᴅ</code> → Aᴅᴅ ᴜsᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ
@@ -1304,7 +1304,7 @@ async def single_cc_check(event):
         await event.reply(premium_emoji("❌ Nᴏ sɪᴛᴇs ᴀᴠᴀɪʟᴀʙʟᴇ. Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ."), parse_mode='html')
         return
     if not proxies:
-        await event.reply(premium_emoji("❌ Nᴏ ᴘʀᴏxɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ!\n\n⚠️ Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ᴛᴏ ᴀᴅᴅ ᴘʀᴏxɪᴇsᴇ."), parse_mode='html')
+        await event.reply(premium_emoji("❌ Nᴏ ᴘʀᴏxɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ!\n\n⚠️ Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ 𝕮y͜͡ 𝖘𝖆𝖎𝖓𝖙 ᴛᴏ ᴀᴅᴅ ᴘʀᴏxɪᴇsᴇ."), parse_mode='html')
         return
     cc_input = event.message.text.split(' ', 1)[1].strip()
     cards = extract_cc(cc_input)
@@ -1591,7 +1591,7 @@ async def site_command(event):
         return
     proxies = load_proxies()
     if not proxies:
-        await event.reply(premium_emoji("❌ Nᴏ ᴘʀᴏxɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ!\n\n⚠️ Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ᴛᴏ ᴀᴅᴅ ᴘʀᴏxɪᴇsᴇ."), parse_mode='html')
+        await event.reply(premium_emoji("❌ Nᴏ ᴘʀᴏxɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ!\n\n⚠️ Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ 𝕮y͜͡ 𝖘𝖆𝖎𝖓𝖙 ᴛᴏ ᴀᴅᴅ ᴘʀᴏxɪᴇsᴇ."), parse_mode='html')
         return
     status_msg = await event.reply(premium_emoji(f"🔄 Cʜᴇᴄᴋɪɴɢ {len(sites)} sɪᴛᴇs..."), parse_mode='html')
     alive_sites = []
@@ -1719,7 +1719,7 @@ async def add_premium_command(event):
             except:
                 pass
         else:
-            await event.reply(premium_emoji(f"⚠️ Usᴇʀ <code>{target_id}</code> ɪs ᴀʟʀᴇᴀᴅʏ ᴘʀᴇᴍɪᴜᴍ."), parse_mode='html')
+            await event.reply(premium_emoji(f"⚠️ Usᴇʀ <code>{target_id}</code> MF ɪs ᴀʟʀᴇᴀᴅʏ ᴘʀᴇᴍɪᴜᴍ."), parse_mode='html')
     except ValueError:
         await event.reply(premium_emoji("❌ Iɴᴠᴀʟɪᴅ ᴜsᴇʀ ID."), parse_mode='html')
     except Exception as e:
