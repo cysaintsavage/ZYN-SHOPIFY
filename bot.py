@@ -11,9 +11,9 @@ from datetime import datetime, timedelta
 
 API_ID = 21124241
 API_HASH = 'b7ddce3d3683f54be788fddae73fa468'
-BOT_TOKEN = '8526188355:AAGq2ESiPU_jGwCqpfCV8AYuexwewWCd6YU'
+BOT_TOKEN = '8862342659:AAEezGI4Z7QAN9KZ6isNsb0MmQMDI1pk5zo'
 ADMIN_ID = [8421362535]
-CHECKER_API_URL = 'https://api-production-b6a8a.up.railway.app/shopify?site=https://lebzone.com&cc=5187254540618961|11|2028|813&proxy=p105.instantproxies.com:9832:5398:wntdcq&key=darkanon'
+CHECKER_API_URL = 'https://kirryshopi.up.railway.app/shopify?site=https://anseladams.org&lista=5264711039110293|09|2026|132&proxy=31.59.184.60:81:yefprelf:dr2gsmab'
 
 
 
