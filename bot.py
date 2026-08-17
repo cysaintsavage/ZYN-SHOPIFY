@@ -219,7 +219,7 @@ async def remove_premium_user(user_id):
 
 def generate_key():
     random_part = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=15))
-    return fNEXUS_{random_part}"
+    return f"NEXUS_{random_part}"
 
 async def load_keys():
     if not os.path.exists(KEYS_FILE):
